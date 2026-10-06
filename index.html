@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Демонстрационный учебный сайт стоматолога-ортопеда Александра Миронова.">
+  <meta name="theme-color" content="#F7F5F0">
+  <title>Александр Миронов — стоматолог-ортопед. Демонстрационный сайт</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      document.documentElement.classList.add("motion");
+    }
+  </script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="logo" href="#top">Александр Миронов</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Открыть меню">
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <div class="header-tools" id="site-nav">
+        <nav class="nav" aria-label="Основная навигация">
+          <ul class="nav-list">
+            <li><a href="#napravleniya">Направления</a></li>
+            <li><a href="#o-vrache">О враче</a></li>
+            <li><a href="#konsultaciya">Консультация</a></li>
+            <li><a href="#kontakty">Контакты</a></li>
+          </ul>
+        </nav>
+        <a class="button" href="#kontakty">Записаться</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">АЛЕКСАНДР МИРОНОВ · СТОМАТОЛОГ-ОРТОПЕД</p>
+          <h1 id="hero-title">Восстановление зубов с вниманием к каждой детали</h1>
+          <p class="lead">Помогаю выбрать обоснованный вариант протезирования: от восстановления отдельного зуба до комплексной реабилитации. Решение принимаем после диагностики, с учётом функции, эстетики и вашей клинической ситуации.</p>
+          <div class="actions">
+            <a class="button" href="#kontakty">Записаться на консультацию</a>
+            <a class="button button--ghost" href="#podhod">Как проходит лечение</a>
+          </div>
+        </div>
+        <figure class="media-frame media-frame--portrait">
+          <img src="images/doctor-portrait.png" alt="Александр Миронов, стоматолог-ортопед" width="1374" height="1145">
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="concerns-title">
+      <div class="container">
+        <div class="section-intro">
+          <h2 id="concerns-title">С какими вопросами обращаются</h2>
+          <p>Когда привычные вещи - улыбаться, разговаривать и принимать пищу - становятся неудобными, важно разобраться в причинах и возможностях восстановления.</p>
+        </div>
+        <div class="cards cards-4">
+          <article class="card">
+            <h3>Отсутствие одного или нескольких зубов.</h3>
+          </article>
+          <article class="card">
+            <h3>Повреждение или значительное разрушение зубов.</h3>
+          </article>
+          <article class="card">
+            <h3>Неудобство существующих протезов.</h3>
+          </article>
+          <article class="card">
+            <h3>Необходимость повторного протезирования.</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="napravleniya" aria-labelledby="directions-title">
+      <div class="container">
+        <div class="section-intro">
+          <h2 id="directions-title">С какими задачами можно обратиться</h2>
+        </div>
+        <div class="cards cards-3">
+          <article class="card card--direction">
+            <h3>Зуб сильно разрушен</h3>
+            <p>Когда пломбы уже недостаточно и необходимо восстановить форму, функцию и внешний вид зуба.</p>
+            <p class="direction-result">Коронки и несъёмные конструкции</p>
+          </article>
+          <article class="card card--direction">
+            <h3>Отсутствует несколько зубов</h3>
+            <p>Подбираем вариант восстановления с учётом состояния оставшихся зубов, тканей полости рта и индивидуальной клинической ситуации.</p>
+            <p class="direction-result">Протезирование съёмными конструкциями</p>
+          </article>
+          <article class="card card--direction">
+            <h3>Необходимо восстановление зубов на имплантатах</h3>
+            <p>Планируем ортопедический этап так, чтобы конструкция была функциональной, эстетичной и соответствовала общей клинической ситуации.</p>
+            <p class="direction-result">Протезирование на имплантатах</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="o-vrache" aria-labelledby="about-title">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-copy">
+            <h2 id="about-title">Александр Миронов</h2>
+            <p class="about-role">Стоматолог-ортопед</p>
+            <p>Для меня ортопедическое лечение начинается не с выбора коронки или протеза. Сначала важно понять клиническую ситуацию в целом: состояние зубов и тканей, функцию, ожидания пациента и возможные варианты восстановления.</p>
+            <p>Моя задача - объяснить эти варианты понятным языком и вместе с пациентом выбрать решение, которое будет обоснованным именно в его ситуации.</p>
+            <ul class="principles">
+              <li>Диагностика до выбора конструкции</li>
+              <li>Понятное обсуждение вариантов</li>
+              <li>Внимание к функции и эстетике</li>
+            </ul>
+          </div>
+          <figure class="media-frame media-frame--photo">
+            <img src="images/doctor-portrait.png" alt="Александр Миронов, стоматолог-ортопед" width="1374" height="1145">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="podhod" aria-labelledby="approach-title">
+      <div class="container">
+        <div class="section-intro">
+          <h2 id="approach-title">Клинический подход</h2>
+          <p>Хороший результат начинается задолго до изготовления конструкции. Поэтому лечение проходит последовательно - от понимания клинической ситуации до контроля результата.</p>
+        </div>
+        <ol class="steps">
+          <li class="card step">
+            <span class="step-num" aria-hidden="true">01</span>
+            <h3>Диагностика</h3>
+            <p>Оцениваем клиническую ситуацию, состояние зубов и тканей, обсуждаем задачи и ожидания пациента.</p>
+          </li>
+          <li class="card step">
+            <span class="step-num" aria-hidden="true">02</span>
+            <h3>Планирование</h3>
+            <p>Сравниваем возможные варианты восстановления и выбираем решение с учётом функции, эстетики и клинических условий.</p>
+          </li>
+          <li class="card step">
+            <span class="step-num" aria-hidden="true">03</span>
+            <h3>Реализация и контроль</h3>
+            <p>Изготавливаем конструкцию, оцениваем результат и определяем рекомендации по дальнейшему наблюдению.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="konsultaciya" aria-labelledby="consult-title">
+      <div class="container">
+        <div class="section-intro">
+          <h2 id="consult-title">Как проходит консультация</h2>
+          <p>Первая консультация - это прежде всего разговор и диагностика.</p>
+        </div>
+        <ol class="steps steps-4">
+          <li class="card step">
+            <span class="step-num" aria-hidden="true">01</span>
+            <h3>Знакомимся с вашей ситуацией</h3>
+            <p>Обсуждаем, что беспокоит, чего вы ожидаете от лечения и какие решения рассматривали раньше.</p>
+          </li>
+          <li class="card step">
+            <span class="step-num" aria-hidden="true">02</span>
+            <h3>Проводим диагностику</h3>
+            <p>Врач оценивает состояние полости рта и определяет, какая дополнительная информация необходима для планирования.</p>
+          </li>
+          <li class="card step">
+            <span class="step-num" aria-hidden="true">03</span>
+            <h3>Обсуждаем варианты</h3>
+            <p>Вы узнаёте, какие способы восстановления возможны, чем они отличаются и почему врач рекомендует тот или иной вариант.</p>
+          </li>
+          <li class="card step">
+            <span class="step-num" aria-hidden="true">04</span>
+            <h3>Формируем план</h3>
+            <p>После необходимой диагностики определяется последовательность лечения и его основные этапы.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-intro">
+          <h2 id="faq-title">Частые вопросы</h2>
+        </div>
+        <div class="faq">
+          <article class="faq-item">
+            <h3>Я не знаю, какой вариант протезирования мне подходит. С чего начать?</h3>
+            <p>Именно для этого нужна первая консультация. Врач оценивает клиническую ситуацию, объясняет возможные варианты восстановления и помогает понять различия между ними.</p>
+          </article>
+          <article class="faq-item">
+            <h3>Можно ли заранее узнать стоимость лечения?</h3>
+            <p>Окончательная стоимость зависит от клинической ситуации и выбранного варианта восстановления. После необходимой диагностики можно сформировать понятный план лечения и обсудить его этапы.</p>
+          </article>
+          <article class="faq-item">
+            <h3>Всегда ли нужна дополнительная диагностика?</h3>
+            <p>Нет. Её объём определяется индивидуально и зависит от клинической ситуации и предполагаемого лечения.</p>
+          </article>
+          <article class="faq-item">
+            <h3>Что делать, если мне предложили несколько вариантов протезирования?</h3>
+            <p>Это нормальная ситуация. Врач объяснит преимущества, ограничения и особенности каждого варианта, чтобы решение принималось осознанно.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="kontakty" aria-labelledby="contacts-title">
+      <div class="container">
+        <div class="contacts-panel">
+          <div class="contacts-copy">
+            <h2 id="contacts-title">Начнём с консультации</h2>
+            <p>Если вы планируете восстановление зубов или хотите разобраться в уже предложенных вариантах лечения, начните с консультации. Обсудим вашу ситуацию и определим, какие решения стоит рассматривать.</p>
+            <a class="button" href="#kontakty">Записаться на консультацию</a>
+          </div>
+          <address>
+            <dl class="contact-grid">
+              <div class="contact-item">
+                <dt>Адрес</dt>
+                <dd>Место для адреса</dd>
+              </div>
+              <div class="contact-item">
+                <dt>Телефон</dt>
+                <dd>Место для телефона</dd>
+              </div>
+              <div class="contact-item">
+                <dt>Часы приёма</dt>
+                <dd>Место для часов приёма</dd>
+              </div>
+              <div class="contact-item">
+                <dt>Запись</dt>
+                <dd>Место для ссылки на запись</dd>
+              </div>
+            </dl>
+          </address>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-title">Александр Миронов — демонстрационный проект</p>
+      <nav class="footer-nav" aria-label="Навигация в подвале">
+        <ul class="nav-list">
+          <li><a href="#napravleniya">Направления</a></li>
+          <li><a href="#o-vrache">О враче</a></li>
+          <li><a href="#konsultaciya">Консультация</a></li>
+          <li><a href="#kontakty">Контакты</a></li>
+        </ul>
+      </nav>
+      <p class="disclaimer">Демонстрационный сайт. Не является сайтом действующего врача.</p>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      if (!document.documentElement.classList.contains("motion")) return;
+
+      var heading = document.querySelector(".hero-copy h1");
+
+      if (heading) {
+        var words = heading.textContent.trim().split(/\s+/).filter(Boolean);
+        heading.textContent = "";
+        words.forEach(function (word, index) {
+          if (index > 0) heading.appendChild(document.createTextNode(" "));
+          var span = document.createElement("span");
+          span.className = "blur-word";
+          span.textContent = word;
+          span.style.setProperty("--blur-delay", (index * 200) + "ms");
+          heading.appendChild(span);
+        });
+        heading.parentElement.classList.add("blur-ready");
+      }
+
+      if (!("IntersectionObserver" in window)) {
+        document.documentElement.classList.remove("motion");
+        return;
+      }
+
+      var nodes = document.querySelectorAll(
+        ".section-intro, .card, .about-copy, .media-frame--photo, .faq, .contacts-panel"
+      );
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
+        });
+      }, { rootMargin: "0px 0px -8% 0px", threshold: 0.14 });
+
+      nodes.forEach(function (node) {
+        observer.observe(node);
+      });
+    })();
+
+    (function () {
+      var header = document.querySelector(".site-header");
+      var toggle = document.querySelector(".nav-toggle");
+      var panel = document.getElementById("site-nav");
+      if (!header || !toggle || !panel) return;
+
+      var desktop = window.matchMedia("(min-width: 769px)");
+
+      function setOpen(open) {
+        header.classList.toggle("is-menu-open", open);
+        panel.classList.toggle("is-open", open);
+        toggle.setAttribute("aria-expanded", open ? "true" : "false");
+        toggle.setAttribute("aria-label", open ? "Закрыть меню" : "Открыть меню");
+      }
+
+      toggle.addEventListener("click", function () {
+        setOpen(toggle.getAttribute("aria-expanded") !== "true");
+      });
+
+      header.addEventListener("click", function (event) {
+        if (event.target.closest("a")) setOpen(false);
+      });
+
+      document.addEventListener("keydown", function (event) {
+        if (event.key !== "Escape" || toggle.getAttribute("aria-expanded") !== "true") return;
+        setOpen(false);
+        toggle.focus();
+      });
+
+      function closeOnDesktop(event) {
+        if (event.matches) setOpen(false);
+      }
+
+      if (desktop.addEventListener) desktop.addEventListener("change", closeOnDesktop);
+      else if (desktop.addListener) desktop.addListener(closeOnDesktop);
+    })();
+  </script>
+</body>
+</html>
