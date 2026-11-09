@@ -251,7 +251,7 @@ a {
   line-height: 1.2;
   text-align: center;
   text-decoration: none;
-  transition: background-color 0.45s ease, color 0.45s ease, border-color 0.45s ease, box-shadow 0.45s ease;
+  transition: background-color 0.45s ease, color 0.45s ease, border-color 0.45s ease, box-shadow 0.45s ease, transform 0.45s ease;
 }
 
 .site-header .button {
@@ -269,6 +269,13 @@ a {
   border-color: #1A3830;
   box-shadow: 0 8px 18px rgba(36, 72, 62, 0.1);
   text-decoration: none;
+}
+
+.hero-copy .actions .button:not(.button--ghost):hover {
+  transform: scale(1.04);
+  box-shadow:
+    0 8px 20px rgba(36, 72, 62, 0.16),
+    0 0 22px rgba(90, 168, 130, 0.42);
 }
 
 .button:active {
